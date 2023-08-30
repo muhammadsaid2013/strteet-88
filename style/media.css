@@ -1,0 +1,88 @@
+@media(max-width:1400px) {
+    .burger__cards{
+        grid-template-columns: repeat(3, 4fr);
+        
+    } 
+}
+@media(max-width:900px) {
+    .burger__cards{
+        grid-template-columns: repeat(2,6fr);
+    }
+}
+@media(max-width:767px) {
+    .header__burger-title{
+        font-size: 50px;
+    } 
+    .header__burger-desk{
+        font-size: 14px;
+        max-width: 600px;
+    }
+    .header__burger-btn1{
+        padding: 25px 50px;
+        font-size: 40px;
+    }
+    .header__burger-btn2{
+        padding: 10px 50px;
+        font-size: 16px;
+    }
+    .header__nav{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 21px
+        ;
+    }
+    .header__nav-list{
+        flex-direction: column;
+        gap: 10px
+        ;
+    }
+    .nav{
+        height: 100%;
+        padding: 15px 0px;
+    }
+}
+@media(max-width:580px) {
+    .burger__cards{
+        grid-template-columns: repeat(1, 6fr);
+        padding-left: 20%;
+        
+    } 
+    .burger__card{
+        width: 80%;
+        
+    }
+}
+@media(max-width:500px) {
+    .header__info{
+        display: none;
+    }
+    .header__nav-logo, .footer__logo{
+        font-size: 25px;
+        
+    } 
+    .header__burger-btns{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .blok1__list{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .blok1{
+        height: 100%;
+        padding: 10px 0px;
+    }
+    .filial{
+        font-size: 40px;
+
+    }
+    .mep{
+        height: 60%;
+    }
+}
+@media(max-width:400px) {
+    .footer__info {
+        flex-direction: column;
+        gap: 15px;
+    }  
+}
